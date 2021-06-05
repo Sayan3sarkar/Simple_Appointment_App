@@ -1,0 +1,26 @@
+{
+  "name": "dynamic_input",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix frontend",
+    "dev-server": "nodemon server.js",
+    "client": "npm start --prefix frontend",
+    "start": "node app.js"
+  },
+  "author": "Sayan Sarkar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mongoose": "^5.12.13",
+    "nodemailer": "^6.6.1",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
