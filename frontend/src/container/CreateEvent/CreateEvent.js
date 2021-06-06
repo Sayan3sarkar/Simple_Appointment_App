@@ -17,7 +17,7 @@ const CreateEvent = props => {
             date: date
         })
             .then(res => {
-                console.log(res);
+                console.log('Response: ', res);
                 props.history.push('/events');
             })
             .catch(err => console.log(err));
