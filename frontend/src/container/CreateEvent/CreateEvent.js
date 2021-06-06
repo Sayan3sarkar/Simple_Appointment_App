@@ -11,7 +11,6 @@ const CreateEvent = props => {
 
     const onSubmitHandler = e => {
         e.preventDefault();
-        console.log(email, date);
         axios.post('/meeting/create-meeting', {
             email: email,
             date: date
